@@ -44,6 +44,13 @@ The goal is to predict whether the patient has a  Risk of future coronary heart 
   
   • Target Variable: 10-year risk of coronary heart disease CHD(binary: “1”, means “Yes”, “0” means “No”) 
   
+ ## **Project Files :**
+
+* **Cardiovascular Risk Prediction-Capstone Project.ipynb -** This file includes complete implementation of the project such as Features description, exploratory data  Analysis, feature engineering, feature scaling and implemented algorithms.
+* **Project PPT -** This is a power point presentation file for the project. It includes various visualaized plots of EDA .The result of the algorithms.
+* **Project Summary -** A brief summary of the project.
+* **Technical Documentation -** This document includes all the basic information and description of different stages of the project.
+  
   
   
 ## Data Pipeline:
@@ -66,17 +73,24 @@ The goal is to predict whether the patient has a  Risk of future coronary heart 
 
 * Obtained the Recall score of 92% and 86% on test data for KNN and RFC.
 
+
+## **Model Reference:**
+* Logistic Regression: https://www.techtarget.com/searchbusinessanalytics/definition/logistic-regression
+* KNN: https://www.javatpoint.com/k-nearest-neighbor-algorithm-for-machine-learning
+* Decision Tree : https://www.javatpoint.com/machine-learning-decision-tree-classification-algorithm
+* Support Vector Machines: https://towardsdatascience.com/support-vector-machine-introduction-to-machine-learning-algorithms-934a444fca47
+* Random Forest: https://medium.com/swlh/random-forest-and-its-implementation-71824ced454f
+* Light GBM: https://machinelearningmastery.com/light-gradient-boosted-machine-lightgbm-ensemble/
+
+
 ## **Summary:**
 Started with understand the data and its attributes then went on to process the data which includes treating the outliers,missing values,duplicate values,did the univariate,bi variate and multi variate analysis on the data set to understand the dependencies of the independent variable on the dependent variable.Treated the class imbalance using the SMOTE technique and the selected best features usng the Chi-square test.Final built the model and the test the metrics and obtained the best value of recall comparing with other models i.e. the Recall score of 92% and 86% on test data for KNN and RFC respectively.
  
+## **Credit:**
+Parth Sharma | Data Scientist | Machine Learning Enthusiast
 
+## **References:**
+https://www.kaggle.com/code/rahulgulia/data-science-and-cardiovascular-diseases-cvds
 
-
-
-
-
-
-
-
-
+https://towardsdatascience.com/applying-smote-for-class-imbalance-with-just-a-few-lines-of-code-python-cdf603e58688
 
