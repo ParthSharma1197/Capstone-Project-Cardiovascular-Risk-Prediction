@@ -4,10 +4,10 @@ Predicting and diagnosing heart disease is the biggest challenge in the medical 
 ![image](https://user-images.githubusercontent.com/100409195/173519650-5496bf0e-7163-4377-aa94-007a7b763d59.png)
 
 
-# **Problem Statement:**
-The goal is to predict whether the patient has a 10-year risk of future coronary heart disease (CHD).
+## **Problem Statement:**
+The goal is to predict whether the patient has a  Risk of future coronary heart disease(CHD) in coming 10-year.
 
-# **Data Description:**
+## **Data Description:**
 ### Demographic:
   • Sex: Male or Female("M" or "F").
 
@@ -46,7 +46,7 @@ The goal is to predict whether the patient has a 10-year risk of future coronary
   
   
   
-# Data Pipeline:
+## Data Pipeline:
 
 * **Data Understanding:** In this initial step we went to look for different features available and tried to uncover their relevance with the target variable.  
 
@@ -59,14 +59,14 @@ The goal is to predict whether the patient has a 10-year risk of future coronary
 * **Model Fitting and Metric Evaluation:** Since the data is transformed to an appropriate form therefore we pass it to different classification models and calculate the metrics on the basis of which we select a model that could give us better prediction.
 
 
-# **Observations:**
+## **Observations:**
 * Logistic Regression is not giving us good results as accuracy as well as recall is least of all the models.of Decision tree it was gave us good results than Logistic regression. If we compare it with others on recall even than it outperformed SVM, Random Forest Classifier.
 
 * K-Nearest Neighbours, hyper tunned Light Gradient Boosting Machine and Random Forest Classifier performed better on the test data.
 
 * Obtained the Recall score of 92% and 86% on test data for KNN and RFC.
 
-# **Summary:**
+## **Summary:**
 Started with understand the data and its attributes then went on to process the data which includes treating the outliers,missing values,duplicate values,did the univariate,bi variate and multi variate analysis on the data set to understand the dependencies of the independent variable on the dependent variable.Treated the class imbalance using the SMOTE technique and the selected best features usng the Chi-square test.Final built the model and the test the metrics and obtained the best value of recall comparing with other models i.e. the Recall score of 92% and 86% on test data for KNN and RFC respectively.
  
 
