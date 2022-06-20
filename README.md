@@ -78,7 +78,7 @@ The goal is to predict whether the patient has a  Risk of future coronary heart 
 * Logistic Regression: https://www.techtarget.com/searchbusinessanalytics/definition/logistic-regression
 * KNN: https://www.javatpoint.com/k-nearest-neighbor-algorithm-for-machine-learning
 * Decision Tree : https://www.javatpoint.com/machine-learning-decision-tree-classification-algorithm
-* Support Vector Machines: https://towardsdatascience.com/support-vector-machine-introduction-to-machine-learning-algorithms-934a444fca47
+* SVM: https://towardsdatascience.com/support-vector-machine-introduction-to-machine-learning-algorithms-934a444fca47
 * Random Forest: https://medium.com/swlh/random-forest-and-its-implementation-71824ced454f
 * Light GBM: https://machinelearningmastery.com/light-gradient-boosted-machine-lightgbm-ensemble/
 
